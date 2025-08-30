@@ -1,10 +1,12 @@
 import "./App.css";
-import LifeCyclesCDM from "./components/LifeCyclesCDM";
+import LifeCycleCWU from "./components/LifeCycleCWU";
 
 function App() {
-  return <div className="App">
-    <LifeCyclesCDM />
-  </div>;
+  return (
+    <div className="App">
+      <LifeCycleCWU />
+    </div>
+  );
 }
 
 export default App;
