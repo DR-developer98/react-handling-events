@@ -1,10 +1,10 @@
 import "./App.css";
-import UseEffectCounterContainer from "./components/UseEffectCounterContainer";
+import HTTPpost from "./components/HTTPpost";
 
 function App() {
   return (
     <div className="App">
-      <UseEffectCounterContainer />
+      <HTTPpost />
     </div>
   );
 }
