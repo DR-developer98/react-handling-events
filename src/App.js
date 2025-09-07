@@ -1,10 +1,10 @@
 import "./App.css";
-import LifeCycleCWU from "./components/LifeCycleCWU";
+import UseEffectCounterContainer from "./components/UseEffectCounterContainer";
 
 function App() {
   return (
     <div className="App">
-      <LifeCycleCWU />
+      <UseEffectCounterContainer />
     </div>
   );
 }
