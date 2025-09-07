@@ -1,10 +1,10 @@
 import "./App.css";
-import HTTPpost from "./components/HTTPpost";
+import HTTPhooks from "./components/HTTPhooks";
 
 function App() {
   return (
     <div className="App">
-      <HTTPpost />
+      <HTTPhooks />
     </div>
   );
 }

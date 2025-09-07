@@ -18,7 +18,11 @@ export class HTTPpost extends Component {
         body: "It works!",
         userId: 123,
       })
-      .then((response) => console.log(response));
+      .then((response) => {
+        this.setState({
+          apiResponse: response.data,
+        })
+      });
   };
 
   componentDidMount() {
